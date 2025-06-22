@@ -1,0 +1,26 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "A Node.js Minecraft bot that maintains a 24/7 connection to Aternos servers to keep them active, with UptimeRobot integration for monitoring.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "aternos",
+    "monitoring",
+    "uptime",
+    "anti-afk"
+  ],
+  "author": "Rudr",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mineflayer": "^4.25.0",
+    "node-cron": "^3.0.3"
+  }
+}

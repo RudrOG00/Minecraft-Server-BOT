@@ -1,0 +1,64 @@
+{
+  "server": {
+    "host": "lekpixel.aternos.me",
+    "port": 52285,
+    "username": "UptimeMonitor",
+    "password": "EnterLoginPass",
+    "version": "",
+    "auth": "offline"
+  },
+  "loginSystem": {
+    "enabled": true,
+    "registerDoublePassword": false,
+    "registerSinglePassword": true,
+    "password": "testpass123"
+  },
+  "behavior": {
+    "joinMessage": "🤖 UptimeRobot Monitor Connected! Server is now being monitored 24/7 for uptime tracking.",
+    "afkMessages": [
+      "Still here!",
+      "Bot active", 
+      "Keeping server alive",
+      "All systems operational"
+    ],
+    "chatResponses": [
+      "Hello!",
+      "I am here!",
+      "Bot is active",
+      "How can I help?"
+    ],
+    "autoUsernameRotation": true,
+    "backupUsernames": [
+      "UptimeMonitor",
+      "ServerGuard",
+      "MonitorBot",
+      "ActivePlayer",
+      "ServerKeeper",
+      "OnlineCheck"
+    ],
+    "combatMode": {
+      "enabled": true,
+      "attackPlayers": true,
+      "attackMobs": true,
+      "attackRange": 4,
+      "combatMovement": true,
+      "strafingEnabled": true
+    }
+  },
+  "reconnection": {
+    "maxAttempts": 50,
+    "initialDelay": 5000,
+    "maxDelay": 300000
+  },
+  "monitoring": {
+    "healthServerPort": 5000,
+    "logLevel": "info",
+    "logToConsole": true,
+    "logToFile": null,
+    "uptimeRobot": {
+      "enabled": true,
+      "showStatus": true,
+      "announceConnection": true
+    }
+  }
+}
