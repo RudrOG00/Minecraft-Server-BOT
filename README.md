@@ -18,24 +18,6 @@ A powerful Node.js Minecraft bot that maintains a 24/7 connection to Aternos ser
 - **Username Rotation**: Automatic username switching when banned
 - **Configurable Behavior**: Customizable bot activities and responses
 
-## 📥 Download & Installation
-
-### Method 1: Download from Replit
-1. Click the three dots (⋯) next to your repl name
-2. Select "Download as zip"
-3. Extract the files to your desired location
-4. Install dependencies: `npm install`
-5. Configure your settings in `bot-config.json`
-6. Run with: `node index.js`
-
-### Method 2: Clone Repository
-If you have this hosted on GitHub, you can clone it:
-```bash
-git clone <your-repository-url>
-cd minecraft-bot
-npm install
-```
-
 ## 🚀 Quick Setup Guide
 
 ### Option 1: Easy Setup (Recommended)
